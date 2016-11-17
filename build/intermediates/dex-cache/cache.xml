@@ -3,6 +3,7 @@
 
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="/Users/JunHyeok/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -139,10 +140,149 @@
     <item
         is-multidex="true"
         jar="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+=======
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_20789011ec5d3f67952df0e3e9e30ad103a944fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_c7c80b3ac630c043b37ab0426591cec2e43f4dc3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_ba699c110571e63ab36b5febe88f5e1963b9572b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_2bb7c2435d6610617ec2224c2d2f6443dd93118d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d6929dea1f3643b05cc54b8337909e16338a98ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_19f33772b08ba410c9fa69f121ce3c902fb1d001\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_1d699b8393c00333dff2fddf71c572ab659847b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1795e71fee0c8e130eed6625fe5d30e35d19e93d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Android\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_670e7a53626dfea76b158363368f24671a5224f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_23832f6aed1b11d5fe988731a109e11c3593a15b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b03d14f9b5aaab4ab6f67923ed2bf419125c1a89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_7e9ac1e278b56e895236610ff35111a24ef062d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8a6764f3ae3763f1bb4fc6549090633e3f7b693a">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5e7fa702f18467afb012bf0fc6603be3f459ced3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0721d6c19d81dbf951eaec726f7f999dfd1943a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e6707b13217bf91d429f4dcfd83c6db42b68a968">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_57f18f48e940955d0d278034c98f1395af1ef438\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+>>>>>>> b1b9f2bcf6682cd4c936cf89b3c316f932361bd3
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+<<<<<<< HEAD
         <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a78988f553b80e0faa9390bcd35bb8608209318f/classes.dex" />
     </item>
     <item
@@ -153,6 +293,18 @@
         revision="24.0.2"
         sha1="c633aa85625a336ebe9d91eb8aea51355c6200c8">
         <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5b40df4789a842808c2109b998ba71e9f9b392cb/classes.dex" />
+=======
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f842c8b22a70601dc42cf2f0ae8447af5bcd81f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\alllh\Documents\GitHub\Xtream\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_a595c51c167cec89b9e72468e9b99ac91b184ee6\classes.dex" />
+>>>>>>> b1b9f2bcf6682cd4c936cf89b3c316f932361bd3
     </item>
 
 </items>
