@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/JunHyeok/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
-        <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/android-async-http-1.4.9_4ba2dabbbcde6a67f48bdd05f8b9be5df0442e72/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -39,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/JunHyeok/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_24b3a0c8039bdf64ff13719400561025cb21fd47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -48,12 +48,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/JunHyeok/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jar="/Users/JunHyeok/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
-        <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-4.3.6_54f94bd25dbfd8783b15904b13d4b9a4d93a4309/classes.dex" />
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_6a3ecaa4512a905b746bdc1c1a9c20b1db0596a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/JunHyeok/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_d58b4ed321ec6496d6bdf8edd64d6ba907ea6ee1/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -97,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="28efe72e62223938f524b8d0f7a41c6380881cf8">
+        sha1="0b9838bfa440a825f6dd3d5cad032252e6810760">
         <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5b40df4789a842808c2109b998ba71e9f9b392cb/classes.dex" />
     </item>
     <item
@@ -156,6 +165,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/JunHyeok/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_4556543ff3ebe629e267ea0147695d4fc8d2b761/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/JunHyeok/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_58056b93f3c5f91c265024b7111e2319332af1c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -169,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="25ba213dccc5661522a2458a268d2da39f0667fe">
+        sha1="7f378e41e61e9d0cabdabe7b00b40b2b2f783c5c">
         <dex dex="/Users/JunHyeok/Git/Android/Xtream/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1813a494ecf42782f5baf5945c0b36d2989e0854/classes.dex" />
     </item>
 

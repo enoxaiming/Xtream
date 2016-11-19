@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
@@ -13,16 +14,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.android.internal.http.multipart.MultipartEntity;
-import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.AsyncHttpResponseHandler;
-import com.loopj.android.http.RequestParams;
-
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.entity.InputStreamEntity;
-import org.apache.http.impl.client.DefaultHttpClient;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -32,6 +23,14 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
+import okhttp3.MediaType;
+import okhttp3.MultipartBody;
+import okhttp3.RequestBody;
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.http.Multipart;
 
 
 /**
@@ -172,8 +171,37 @@ public class VoiceRecorder extends AppCompatActivity implements View.OnClickList
         }
 
         if(view.getId() == R.id.sendbtn) {
+            uploadFile();
         }
     }
 
+
+    private void uploadFile() {
+        SendFile sendFile = ServiceGenerator.createService(SendFile.class);
+
+        File file = new File(mFileName);
+
+        RequestBody requestFile = RequestBody.create(MediaType.parse("multipart/form-data"), file);
+
+        MultipartBody.Part body = MultipartBody.Part.createFormData("data",file.getName(),requestFile);
+
+        String descriptionString = "Hi";
+
+        RequestBody description = RequestBody.create(MediaType.parse("multipart/form-data"), descriptionString);
+
+        Call<ResponseBody> call = sendFile.upload(description,body);
+        call.enqueue(new Callback<ResponseBody>() {
+            @Override
+            public void onResponse(Call<ResponseBody> call, Response<ResponseBody> response) {
+                Log.v("Upload","success");
+            }
+
+            @Override
+            public void onFailure(Call<ResponseBody> call, Throwable t) {
+                Log.v("error",t.getMessage());
+            }
+        });
+
+    }
 
 }
